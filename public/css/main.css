@@ -1,0 +1,22 @@
+.text-blue
+{
+    color: #3a78e4 !important;
+}
+.text-green
+{
+    color: #38c055 !important;
+}
+.text-yellow
+{
+    color: #daad31 !important;
+}
+.text-red
+{
+    color: #be2525 !important;
+}
+.router-link-exact-active
+{
+    background-color: #0e5fe8 !important;
+    color: #fff !important;
+}
+
