@@ -7,6 +7,7 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use PhpParser\Node\Stmt\Return_;
 
 class UserController extends Controller
 {
@@ -66,6 +67,13 @@ class UserController extends Controller
     {
         //
     }
+    public function updateProfile(Request $request)
+    {
+        $user = auth('api')->user();
+
+        return  $request->photo;
+    }
+
     public function profile()
     {
         return auth('api')->user();

@@ -163,9 +163,6 @@ export default {
       })
     };
   },
-  mounted() {
-    console.log("Component");
-  },
   methods: {
     updateUser() {
       this.$Progress.start();
